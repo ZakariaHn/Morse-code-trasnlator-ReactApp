@@ -10,7 +10,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
-  "author": "Hadi Nsreeny",
+  "author": "Zakaria Hamdan",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.5.0",
