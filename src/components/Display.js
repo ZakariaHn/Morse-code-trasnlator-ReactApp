@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import morseCodes from "../data.json";
 
 export default class Display extends Component {
   constructor(props) {
@@ -13,7 +12,7 @@ export default class Display extends Component {
   translate(input) {
     let output = "";
     input.split("").map((item) => {
-      return (output += morseCodes[item] + " ");
+      return (output += this.props.data[item] + " ");
     });
     this.setState({ output });
   }
@@ -23,7 +22,7 @@ export default class Display extends Component {
       <div className="wrapper">
         <h3>Encode your text</h3>
         <textarea
-          placeholder="Write text"
+          placeholder="Write a text"
           onChange={(e) => this.translate(e.target.value)}
         />
         <lable>Morse Code: {this.state.output}</lable>
