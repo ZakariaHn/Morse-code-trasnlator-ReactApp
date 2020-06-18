@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Morse-code-trasnlator-ReactApp/precache-manifest.a45fa9521f2fd2ab2571f2599d634069.js"
+  "/Morse-code-trasnlator-ReactApp/precache-manifest.e61f72effbb68f2fab054c82099a4f07.js"
 );
 
 self.addEventListener('message', (event) => {
