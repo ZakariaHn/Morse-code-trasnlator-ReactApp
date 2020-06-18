@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import morseCodes from "../data.json";
 
-export default class display extends Component {
+export default class Display extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,7 +21,7 @@ export default class display extends Component {
   render() {
     return (
       <div>
-        <input onChange={(e) => this.translate(e.target.value)} />
+        <textarea onChange={(e) => this.translate(e.target.value)} />
         <h4>Morse Code: {this.state.output}</h4>
       </div>
     );
