@@ -1,6 +1,6 @@
 body {
-  background-color: #0e0d0ee5;
-  color: rgb(245, 231, 206);
+  background-color: #000000e5;
+  color: rgb(184, 184, 184);
   display: flex;
   justify-content: center;
 }
@@ -15,13 +15,17 @@ body {
   transform: translateY(25vh);
   padding: 0 2rem 2rem 2rem;
   h3 {
-    transform: translate(30%);
+    letter-spacing: 1rem;
   }
   textarea {
     background-color: #312f2f6e;
     border: none;
-    color: rgb(245, 230, 204);
+    color: rgb(150, 150, 150);
     text-indent: 0.5rem;
     padding: 0.5rem;
+    letter-spacing: 0.9px;
+  }
+  lable {
+    letter-spacing: 2px;
   }
 }
