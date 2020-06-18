@@ -20,9 +20,13 @@ export default class Display extends Component {
 
   render() {
     return (
-      <div>
-        <textarea onChange={(e) => this.translate(e.target.value)} />
-        <h4>Morse Code: {this.state.output}</h4>
+      <div className="wrapper">
+        <h3>Encode your text</h3>
+        <textarea
+          placeholder="Write text"
+          onChange={(e) => this.translate(e.target.value)}
+        />
+        <lable>Morse Code: {this.state.output}</lable>
       </div>
     );
   }
