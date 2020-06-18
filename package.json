@@ -1,12 +1,14 @@
 {
-  "name": "react-project-temp",
+  "name": "Morse-code-translator-ReactApp",
   "version": "1.0.0",
+  "homepage": "https://zakariahn.github.io/Morse-code-translator-ReactApp",
   "description": "project template",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "publish": "gh-pages -d dist"
+    "build": "react-scripts build"
   },
   "author": "Hadi Nsreeny",
   "license": "ISC",
