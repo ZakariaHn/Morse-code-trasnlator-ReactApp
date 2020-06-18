@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/Morse-code-translator-ReactApp/static/js/main.d27397a2.chunk.js",
+    "main.js.map": "/Morse-code-translator-ReactApp/static/js/main.d27397a2.chunk.js.map",
+    "runtime-main.js": "/Morse-code-translator-ReactApp/static/js/runtime-main.77b9f78a.js",
+    "runtime-main.js.map": "/Morse-code-translator-ReactApp/static/js/runtime-main.77b9f78a.js.map",
+    "static/js/2.6d78ca85.chunk.js": "/Morse-code-translator-ReactApp/static/js/2.6d78ca85.chunk.js",
+    "static/js/2.6d78ca85.chunk.js.map": "/Morse-code-translator-ReactApp/static/js/2.6d78ca85.chunk.js.map",
+    "index.html": "/Morse-code-translator-ReactApp/index.html",
+    "precache-manifest.81666b27a2e69edffec5d27ead29bef2.js": "/Morse-code-translator-ReactApp/precache-manifest.81666b27a2e69edffec5d27ead29bef2.js",
+    "service-worker.js": "/Morse-code-translator-ReactApp/service-worker.js",
+    "static/js/2.6d78ca85.chunk.js.LICENSE.txt": "/Morse-code-translator-ReactApp/static/js/2.6d78ca85.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77b9f78a.js",
+    "static/js/2.6d78ca85.chunk.js",
+    "static/js/main.d27397a2.chunk.js"
+  ]
+}
